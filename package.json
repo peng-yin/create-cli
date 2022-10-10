@@ -1,0 +1,35 @@
+{
+  "name": "@pengyin/create-app",
+  "version": "1.0.13",
+  "description": "@pengyin/create-app",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "bin",
+    "templates"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umijs/dumi"
+  },
+  "authors": [
+    "pengyin"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@pengyin/utils": "^3.0.5"
+  },
+  "devDependencies": {
+    "father-build": "^1.14.2"
+  },
+  "bin": {
+    "create-app": "bin/index.js"
+  },
+  "scripts": {
+    "build": "father-build"
+  }
+}
