@@ -30,5 +30,22 @@ $ yarn global bin
 - download-git-repo	下载远程模版
 - fs-extra	系统fs模块的扩展，提供了更多便利的 API，并继承了fs模块的 API
 - cross-spawn	支持跨平台调用系统上的命令, 在脚手架里面，可以用来自动执行 shell 命令
+- figlet  输出一些特殊的文字，这些文字只包含 ANSI 对应的字符。
 
+1. Yeoman 一个通用的脚手架系统, 实际上是三个工具的总和：
+
+yo --- 脚手架，自动生成工具
+grunt、gulp --- 构建工具
+bower、npm --- 包管理工具
+
+Yeoman 提供了 yeoman-generator 让我们快速生成一个脚手架模板，我们可以通过各类 Generator 实现任何类型的项目搭建，
+
+```
+  npm install yo --global # or yarn global add yo
+  npm install generator-node --global # or yarn global add generator-node
+  mkdir yo-project
+  cd yo-project
+  yo node
+```
+2. plop 小在体积轻量，美在简单易用
 </details>

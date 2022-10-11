@@ -1,18 +1,36 @@
 {
-  "name": "simple-cli",
-  "version": "1.0.0",
+  "name": "zhurong-cli",
+  "version": "1.0.4",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "bin": {
-    "simple-cli": "./index.js"
+    "zr": "./bin/cli.js"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name": "T-Roc",
+    "email": "lxp_work@163.com"
+  },
+  "keywords": [
+    "zhurong-cli",
+    "zr",
+    "脚手架"
+  ],
   "license": "MIT",
-  "devDependencies": {
-    "chalk": "^5.0.1",
-    "commander": "^9.4.0",
-    "cross-spawn": "^7.0.3",
-    "ejs": "^3.1.8",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
     "inquirer": "^8.0.0",
-    "ora": "^6.1.2"
+    "ora": "^5.4.0"
   }
 }
