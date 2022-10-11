@@ -30,7 +30,6 @@
     "create-cli": "bin/index.js"
   },
   "scripts": {
-    "build": "father-build",
-    "publish": "npm run build && npm publish"
+    "build": "father-build"
   }
 }
