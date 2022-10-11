@@ -1,7 +1,7 @@
 {
-  "name": "@pengyin/create-app",
+  "name": "@pengyin/create-cli",
   "version": "1.0.13",
-  "description": "@pengyin/create-app",
+  "description": "@pengyin/create-cli",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/umijs/dumi"
+    "url": "https://github.com/peng-yin/create-cli.git"
   },
   "authors": [
     "pengyin"
@@ -27,7 +27,7 @@
     "father-build": "^1.14.2"
   },
   "bin": {
-    "create-app": "bin/index.js"
+    "create-cli": "bin/index.js"
   },
   "scripts": {
     "build": "father-build"
