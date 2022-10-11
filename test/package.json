@@ -1,28 +1,14 @@
 {
-  "name": "zhurong-cli",
+  "name": "@pengyin/create-cli-test",
   "version": "1.0.4",
   "description": "",
-  "main": "index.js",
   "bin": {
-    "zr": "./bin/cli.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cli-test": "./bin/cli.js"
   },
   "files": [
     "bin",
     "lib"
   ],
-  "author": {
-    "name": "T-Roc",
-    "email": "lxp_work@163.com"
-  },
-  "keywords": [
-    "zhurong-cli",
-    "zr",
-    "脚手架"
-  ],
-  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.1",

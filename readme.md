@@ -21,6 +21,15 @@ bin 字段中提供的命令就是脚手架与外界沟通的桥梁，外界通�
 $ yarn global bin
 /usr/local/bin
 
+chmod +x ./bin/cli.js
+
+# install and start
+
+$ yarn global add cli
+
+$ cli create <name> [-f|--force]
+$ -f, --force: Overwrite if the target exists
+
 ## 工具库
 
 - commander	命令行自定义指令

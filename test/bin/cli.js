@@ -48,7 +48,7 @@ program
       width: 80,
       whitespaceBreak: true
     }));
-    console.log(`\r\nRun ${chalk.cyan(`zr <command> --help`)} for detailed usage of given command\r\n`)
+    console.log(`\r\nRun ${chalk.cyan(`cli <command> --help`)} for detailed usage of given command\r\n`)
   })
 
 // 解析用户执行命令传入参数
