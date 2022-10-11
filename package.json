@@ -1,6 +1,6 @@
 {
   "name": "@pengyin/create-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "@pengyin/create-cli",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
