@@ -21,7 +21,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@pengyin/utils": "^3.0.5"
+    "@umijs/utils": "^3.0.5"
   },
   "devDependencies": {
     "father-build": "^1.14.2"
