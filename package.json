@@ -21,9 +21,17 @@
     "access": "public"
   },
   "dependencies": {
-    "@umijs/utils": "^3.0.5"
+    "@umijs/utils": "^3.0.5",
+    "fs-extra": "^10.1.0",
+    "got": "^11.8.3",
+    "inquirer": "^8.0.0",
+    "validate-npm-package-name": "^4.0.0"
   },
   "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/inquirer": "^9.0.2",
+    "@types/request": "^2.48.8",
+    "@types/validate-npm-package-name": "^4.0.0",
     "father-build": "^1.14.2"
   },
   "bin": {
