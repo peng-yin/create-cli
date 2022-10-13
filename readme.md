@@ -1,3 +1,8 @@
+## use
+
+mkdir my-app && cd my-app
+
+yarn create @pengyin/cli
 
 <details>
 yarn create <starter-kit-package> [<args>] 是为了统一前端项目脚手架引入的
@@ -58,3 +63,4 @@ Yeoman 提供了 yeoman-generator 让我们快速生成一个脚手架模板，�
 ```
 2. plop 小在体积轻量，美在简单易用
 </details>
+
