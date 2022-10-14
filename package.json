@@ -4,6 +4,7 @@
   "description": "@pengyin/create-cli",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "module": "index.module.js",
   "files": [
     "lib",
     "bin",
@@ -25,6 +26,7 @@
     "fs-extra": "^10.1.0",
     "got": "^11.8.3",
     "inquirer": "^8.0.0",
+    "umi": "^4.0.25",
     "validate-npm-package-name": "^4.0.0"
   },
   "devDependencies": {
@@ -35,7 +37,8 @@
     "father-build": "^1.14.2"
   },
   "bin": {
-    "create-cli": "bin/index.js"
+    "create-cli": "bin/index.js",
+    "boot-cli": "bin/boot.js"
   },
   "scripts": {
     "build": "father-build"
